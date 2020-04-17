@@ -1,0 +1,5 @@
+.wrapper{
+    height: 100vh;
+    background: url(./mac.jpg);
+    background-size: cover;
+}

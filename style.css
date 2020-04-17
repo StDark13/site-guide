@@ -1,3 +1,7 @@
+.body{
+    margin: 0;
+}
+
 .wrapper{
     height: 100vh;
     background: url(./mac.jpg);

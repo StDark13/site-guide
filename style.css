@@ -19,6 +19,7 @@ body{
 
 .button {
     display: block;
+    margin: auto;
     width: 150px;
     font-family: sans-serif, arial;
     font-size: 14px;

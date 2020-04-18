@@ -3,6 +3,8 @@ body{
 }
 
 .wrapper{
+    padding-top: 240px;
+    box-sizing: border-box;
     height: 100vh;
     background: url(./mac.jpg);
     background-size: cover;
@@ -14,3 +16,17 @@ body{
     color: white;
     text-align: center
 }
+
+.button {
+    display: block;
+    width: 150px;
+    font-family: sans-serif, arial;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    border: 2px solid;
+    text-align: center;
+}    

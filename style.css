@@ -1,9 +1,10 @@
 body{
     margin: 0;
+    font-size: 24px;
 }
 
 .wrapper{
-    padding-top: 240px;
+    padding-top: 200px;
     box-sizing: border-box;
     height: 100vh;
     background: url(./mac.jpg);
@@ -20,14 +21,21 @@ body{
 .button {
     display: block;
     margin: auto;
-    width: 150px;
+    width: 200px;
     font-family: sans-serif, arial;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 50px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     background: transparent;
     border: 2px solid;
     text-align: center;
+    transition-duration: 0.4s;
 }    
+
+.button:hover{
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+}

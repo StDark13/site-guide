@@ -1,4 +1,4 @@
-.body{
+body{
     margin: 0;
 }
 
@@ -6,4 +6,11 @@
     height: 100vh;
     background: url(./mac.jpg);
     background-size: cover;
+}
+
+.description, .title {
+    font-family: sans-serif, arial;
+    font-weight: 400;
+    color: white;
+    text-align: center
 }
